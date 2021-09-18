@@ -1,5 +1,6 @@
 import logging
 
+from aiogram import types
 from aiogram.contrib.middlewares.logging import LoggingMiddleware
 
 logging.basicConfig(level=logging.INFO)
