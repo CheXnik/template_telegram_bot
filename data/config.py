@@ -1,6 +1,7 @@
 from environs import Env
 
-env = Env().read_env()
+env = Env()
+env.read_env()
 
 VERSION = '0.1'
 API_TOKEN = env.str("BOT_TOKEN")
